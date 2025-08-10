@@ -32,6 +32,7 @@ public class MyFirstTest extends BaseTestLogin  {
 		
 		weNext=findElementXpath.getElementByXpath("obj_Next");
 		weNext.click();
+		System.out.println("Login Successful");
 		
 
 	}
